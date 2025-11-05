@@ -1,0 +1,43 @@
+{
+  "name": "ticket-automation-system",
+  "version": "1.0.0",
+  "description": "AI-Driven Ticket Automation System - MERN Stack with Python ML Microservice",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "backend:dev": "cd backend && pnpm run dev",
+    "backend:install": "cd backend && pnpm install",
+    "ai:start": "cd ai-service && python app.py",
+    "ai:install": "cd ai-service && pip install -r requirements.txt"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/lab": "5.0.0-alpha.177",
+    "@mui/material": "^5.15.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "axios": "^1.6.2",
+    "date-fns": "^3.0.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.22.0",
+    "recharts": "^2.10.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+  }
+}
